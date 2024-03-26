@@ -1,0 +1,92 @@
+.dakim-title {
+
+    color: #FD6D0B !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    padding: 0 0 10px 0 !important;
+    
+}
+.dakim-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #706F6F;
+}
+
+.dakim-description span {
+    
+    font-weight: 700;
+   
+}
+.dakim-container{
+    padding: 10px;
+}
+.dakim-wrapper-box{
+    border: 2px solid tomato;
+    padding: 10px;
+}
+@media (min-width: 960px) {
+    .dakim-wrap {
+      display: flex;
+    }
+  }
+.inside_dakim-wrapper{
+   
+    width: 100%;
+    
+}
+@media (min-width: 960px) {
+    .inside_dakim-wrapper {
+      width: 50%;
+      border-right: solid 1px #c6c6c6;
+padding-right: 10px;
+      
+    }
+  }
+
+.inside_dakim-img>img{
+    max-width: 100%;
+    height: auto;
+
+}
+.fabric_dakim-wrapper{
+    width: 100%;
+  
+}
+@media (min-width: 960px) {
+    .fabric_dakim-wrapper {
+        width: 50%;
+        padding-left: 10px;
+      
+    }
+  }
+.fabric-list{
+
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #706F6F;
+    text-align: center;
+}
+@media (min-width: 600px) {
+    .fabric-list {
+        display: flex;
+    justify-content: space-around;
+      
+    }
+  }
+
+.fabric-item-bg{
+    margin: auto;
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    border: 1px solid #c6c6c6;
+    background-color: #c6c6c6;
+    background: url('/images/pluah_w.jpg')0 0/cover no-repeat;
+    transition: background 0.5s ease-in-out;
+}
+
+.fabric-item-bg:hover {
+    background: url('/images/pluah_c.jpg')0 0/cover no-repeat; 
+}
